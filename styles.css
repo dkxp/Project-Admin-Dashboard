@@ -15,7 +15,9 @@ body {
     background-color: rgb(25,146,212);
     grid-column: 1;
     grid-row: 1 / 3;
-    display:flex;
+    display: grid;
+    align-content: start;
+    gap: 50px;
 }
 
 
@@ -25,31 +27,50 @@ body {
     grid-row: 2;
 }
 
-.icons {
-    
-    display: flex;
+.dashboard {
+    display:flex;
+    gap: 15px;
     flex-direction: column;
-    gap: 30px;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.dashboard div {
+    font-size: large;
+    font-weight: 700;
     color: white;
-    
+    grid-column: 2;
+}
+.dashboard1 div {
+  font-size: x-large;
+  font-weight: 700;
+  color: white;
+  grid-column: 2;
 }
 
-.iconDescription {
-    display: flex;
-    flex-direction: row;
-    
-   
+.dashboard .dashboardTitle {
+    font-size: xx-large;
+    font-weight: 900;
+    color: white;
 }
 
-.icons div {
-    display: flex;
-    flex-direction: column;
+.dashboardIcon {
+    display:flex;
+    gap: 15px;
     align-items: center;
 }
 
+.dashboard1 {
+  display:flex;
+  gap: 15px;
+  flex-direction: column;
+  padding-left: 13px;
+  padding-top: 15px;
+}
 
-
-
-
-
-
+#firstIcon {
+  margin-right: 0;
+}
+.dashboard .dashboardIcon div {
+  padding-left: 9px;
+}
