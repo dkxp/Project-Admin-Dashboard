@@ -54,3 +54,7 @@ body {
     align-items: center;
 }
 
+.sidebar:first-child {
+    padding-left: -20px;
+}
+
