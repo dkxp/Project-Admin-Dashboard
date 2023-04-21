@@ -15,9 +15,7 @@ body {
     background-color: rgb(25,146,212);
     grid-column: 1;
     grid-row: 1 / 3;
-    display: grid;
-    align-content: start;
-    gap: 50px;
+    display:flex;
 }
 
 
@@ -27,34 +25,31 @@ body {
     grid-row: 2;
 }
 
-.dashboard {
-    display:flex;
-    gap: 15px;
+.icons {
+    
+    display: flex;
     flex-direction: column;
-    padding-left: 20px;
-    padding-top: 15px;
-}
-
-.dashboard div {
-    font-size: x-large;
-    font-weight: 700;
+    gap: 30px;
     color: white;
-    grid-column: 2;
+    
 }
 
-.dashboard .dashboardTitle {
-    font-size: xx-large;
-    font-weight: 900;
-    color: white;
+.iconDescription {
+    display: flex;
+    flex-direction: row;
+    
+   
 }
 
-.dashboardIcon {
-    display:flex;
-    gap: 15px;
+.icons div {
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
-.sidebar:first-child {
-    padding-left: -20px;
-}
+
+
+
+
+
 
